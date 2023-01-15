@@ -30,5 +30,19 @@ pipeline{
             }
             
         }
+        
     }
+    post
+    {
+       always
+        {
+            echo "Run always"
+        }
+        failure
+        {
+           echo "Failed"   
+        }
+        
+    }
+    
 }
