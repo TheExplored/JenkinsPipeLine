@@ -26,7 +26,7 @@ pipeline{
         }
         stage("Second Stage"){
             steps{
-                sh "echo Helloooo"
+                sh "echooo Helloooo"
             }
             
         }
