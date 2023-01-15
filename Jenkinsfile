@@ -1,5 +1,5 @@
 pipeline{
-    //agent any
+    //agent anys
     agent {label 'worker'}
     options{
         buildDiscarder(logRotator(daysToKeepStr: '7'))
